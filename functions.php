@@ -18,7 +18,7 @@ function getMonsters($array)
                 <div>Slain By: <?php echo $monster['info']['slain by'] ?></div>
             </div>
             <div>
-                INSERT INFO/ STORY HERE
+                <p>INSERT INFO/ STORY HERE</p>
             </div>
         </div>
 <?php endforeach;

@@ -3,12 +3,25 @@
 }
 
 body {
-  margin: 10px;
   height: 100vh;
   font-size: 12px;
-  background-color: rgb(23, 112, 23);
   color: white;
+  font-family: 'Poppins';
+  background-image: url('/img/alexander-jawfox-dqDgVUgFGTU-unsplash.jpg');
 }
+
+.background {
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+/* Photo by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+
+/* Blue picture:
+Photo by <a href="https://unsplash.com/@jawfox_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Jawfox</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
 
 main {
   display: flex;
@@ -32,9 +45,15 @@ main {
 
 h1 {
   text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 img {
   height: 15rem;
   width: 10rem;
+}
+
+img:hover {
+  opacity: 50%;
 }
