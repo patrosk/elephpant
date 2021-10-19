@@ -21,7 +21,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(6, 1fr);
-  grid-gap: 10px 5px;
+  grid-gap: 10px 10px;
 }
 
 @media screen and (min-width: 430px) {

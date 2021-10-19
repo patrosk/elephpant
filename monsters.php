@@ -54,9 +54,9 @@ $monsters = [
         'info' => [
             'location' => 'Rock of Scilla, Calabria',
             'creature' => 'Once a beautiful naiade, now a sea monster',
-            'powers' => 'Frightful monster with four eyes and six long snaky necks equipped with grisly heads, each of which contained three rows of sharp shark\'s teeth. Her body consisted of 12 tentacle-like legs and a cat\'s tail, while six dog\'s heads ringed her waist.',
+            'powers' => 'Four-eyed monster with six snakelike heads and twelve tentacles.',
             'weakness' => 'Cursed monster',
-            'slain by' => 'Slain by Hercules, but resurrected by her father Phorcys',
+            'slain by' => 'Hercules, but resurrected by her father Phorcys.',
         ],
         'image' => '/img/scylla.jpg',
     ],
