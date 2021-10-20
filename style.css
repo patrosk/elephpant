@@ -30,6 +30,15 @@ main {
   grid-gap: 10px 10px;
 }
 
+.evil {
+  margin-top: 3rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   text-align: center;
   font-size: 2rem;
@@ -40,15 +49,27 @@ img {
   height: 15rem;
   width: 10rem;
   border-radius: 6px;
+  transition: 0.5s ease;
 }
 
 img:hover {
-  opacity: 50%;
+  opacity: 60%;
+}
+
+.evil:hover + .info {
+  background-color: lightcoral;
+}
+
+footer {
+  text-align: center;
 }
 
 @media screen and (min-width: 430px) {
   body {
     color: darkblue;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
   }
   img {
     height: 21rem;
