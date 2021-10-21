@@ -39,6 +39,10 @@ main {
   flex-direction: column;
 }
 
+.story {
+  display: none;
+}
+
 h1 {
   text-align: center;
   font-size: 2rem;
@@ -57,7 +61,11 @@ img:hover {
 }
 
 .evil:hover + .info {
-  background-color: lightcoral;
+  display: none;
+}
+
+.evil:hover .story {
+  display: block;
 }
 
 footer {
@@ -75,4 +83,8 @@ footer {
     height: 21rem;
     width: 14rem;
   }
+}
+
+.two {
+  display: none;
 }

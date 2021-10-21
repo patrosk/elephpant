@@ -3,13 +3,13 @@
 $monsters = [
     [
         'name' => 'Medusa',
-        'info' => [
-            'location' => 'Sarpedon',
-            'creature' => 'Once a beautiful woman, now cursed with snakes as hair',
-            'powers' => 'Petrifying gaze',
-            'weakness' => 'Only mortal Gorgon',
-            'slain by' => 'Perseus',
-        ],
+
+        'location' => 'Sarpedon',
+        'creature' => 'Once a beautiful woman, now cursed with snakes as hair',
+        'powers' => 'Petrifying gaze',
+        'weakness' => 'Only mortal Gorgon',
+        'slain_by' => 'Perseus',
+
         'image' => '/img/medusa.jpg',
     ],
 
@@ -72,4 +72,10 @@ $monsters = [
         ],
         'image' => '/img/charybdis.png',
     ],
+];
+
+
+$stories = [
+    ['name' => 'Medusa'],
+    ['name' => 'Minotaur'],
 ];
