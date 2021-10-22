@@ -3,10 +3,9 @@
 }
 
 body {
-  height: 100vh;
-  font-size: 12px;
+  font-size: 16px;
   color: white;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
   background-image: url('/img/laura.jpg');
 }
 /* Background Image by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -16,37 +15,43 @@ body {
 Photo by <a href="https://unsplash.com/@jawfox_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Jawfox</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
 
-main {
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(6, 1fr);
-  grid-gap: 10px 10px;
+.box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.evil {
-  margin-top: 3rem;
-}
-
-.info {
+.information {
+  margin: 10px;
+  background-color: rgb(68, 68, 107);
+  border-radius: 20px;
+  width: 272px;
+  display: flex;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.story {
-  display: none;
-}
-
-h1 {
-  text-align: center;
+.name {
   font-size: 2rem;
-  font-weight: 400;
+  margin-top: 1rem;
 }
 
 img {
@@ -54,18 +59,41 @@ img {
   width: 10rem;
   border-radius: 6px;
   transition: 0.5s ease;
+  box-shadow: 5px 5px 10px black;
+  margin: 1rem;
 }
 
 img:hover {
   opacity: 60%;
 }
 
-.evil:hover + .info {
+img:hover + ul {
   display: none;
 }
 
-.evil:hover .story {
-  display: block;
+img:hover ~ .story {
+  display: inline-block;
+}
+
+.information:hover {
+  /* width: 100%; */
+  box-shadow: 10px 10px 15px black;
+  transform: scale(1.1);
+}
+
+.information li {
+  color: greenyellow;
+}
+
+ul {
+  list-style: none;
+  padding: 2rem;
+  margin: 0;
+}
+
+.story {
+  padding: 2rem;
+  display: none;
 }
 
 footer {
@@ -74,17 +102,15 @@ footer {
 
 @media screen and (min-width: 430px) {
   body {
+    max-height: 1500px;
     color: darkblue;
     font-size: 1.5rem;
     margin-left: 5rem;
     margin-right: 10rem;
   }
+
   img {
     height: 21rem;
     width: 14rem;
   }
-}
-
-.two {
-  display: none;
 }

@@ -1,37 +1,40 @@
 <?php require __DIR__ . '/header.php'; ?>
-<?php require __DIR__ . '/monsters.php'; ?>
-<?php require __DIR__ . '/functions.php'; ?>
+<?php require __DIR__ . '/monsters.php' ?>
 
-<main>
-    <h1>What is a monster?</h1>
-    <h2>Monsters in Greek Mythology</h2>
-    <div class="container one">
+<h1>What is a monster?</h1>
+<h2>Monsters in Greek Mythology</h2>
+
+<div class="container">
+    <div class="box">
         <?php foreach ($monsters as $monster) : ?>
-            <div>
-                <div class="name">
-                    <h3><?php echo $monster['name'] . "\n" ?></h3>
-                    <img src="<?php echo $monster['image'] ?>">
+
+            <?php
+            $name = $monster['name'];
+            $location = $monster['location'];
+            $creature = $monster['creature'];
+            $powers = $monster['powers'];
+            $weakness = $monster['weakness'];
+            $slain_by = $monster['slain_by']; ?>
+
+            <div class="information">
+                <div class="name"> <?php echo $monster['name'] ?></div>
+                <img src="<?php echo $monster['image'] ?>">
+                <ul class>
+                    <li>Creature: <?php echo $monster['creature'] ?></li>
+                    <li>Location: <?php echo $monster['location'] ?></li>
+                    <li>Powers: <?php echo $monster['powers'] ?></li>
+                    <li>Weakness: <?php echo $monster['weakness'] ?></li>
+                    <li>Slain By: <?php echo $monster['slain_by'] ?></li>
+                </ul>
+
+                <div class="story">
+                    <div><?php echo $monster['story'] ?></div>
                 </div>
+
             </div>
-            <div>
-                <div class="evil">
-                    AM I EVIL?
-                    <div class="story">
-                        INSERT STORY HERE
-                    </div>
-                </div>
-                <div class="info">
-                    <div class="stats">
-                        <div>Creature: <?php echo $monster['creature'] ?></div>
-                        <div>Location: <?php echo $monster['location'] ?></div>
-                        <div>Powers: <?php echo $monster['powers'] ?></div>
-                        <div>Weakness: <?php echo $monster['weakness'] ?></div>
-                        <div>Slain By: <?php echo $monster['slain_by'] ?></div>
-                    </div>
-                </div>
-            </div>
-        <?php endforeach; ?>
+
+        <?php endforeach ?>
     </div>
-</main>
+</div>
 
 <?php require __DIR__ . '/footer.php'; ?>
