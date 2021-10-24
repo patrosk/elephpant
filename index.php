@@ -1,7 +1,7 @@
 <?php require __DIR__ . '/header.php'; ?>
 <?php require __DIR__ . '/monsters.php' ?>
 
-<h1>What is a monster?</h1>
+
 <h2>Monsters in Greek Mythology</h2>
 
 <div class="container">
@@ -14,21 +14,23 @@
             $creature = $monster['creature'];
             $powers = $monster['powers'];
             $weakness = $monster['weakness'];
-            $slain_by = $monster['slain_by']; ?>
+            $slain_by = $monster['slain_by'];
+            $image = $monster['image'];
+            $story =  $monster['story'] ?>
 
             <div class="information">
-                <div class="name"> <?php echo $monster['name'] ?></div>
-                <img src="<?php echo $monster['image'] ?>">
+                <div class="name"> <?php echo $name ?></div>
+                <img src="<?php echo $image ?>">
                 <ul class>
-                    <li>Creature: <?php echo $monster['creature'] ?></li>
-                    <li>Location: <?php echo $monster['location'] ?></li>
-                    <li>Powers: <?php echo $monster['powers'] ?></li>
-                    <li>Weakness: <?php echo $monster['weakness'] ?></li>
-                    <li>Slain By: <?php echo $monster['slain_by'] ?></li>
+                    <li>Creature: <?php echo $creature ?></li>
+                    <li>Location: <?php echo $location ?></li>
+                    <li>Powers: <?php echo $powers ?></li>
+                    <li>Weakness: <?php echo $weakness ?></li>
+                    <li>Slain By: <?php echo $slain_by ?></li>
                 </ul>
 
                 <div class="story">
-                    <div><?php echo $monster['story'] ?></div>
+                    <div><?php echo $story ?></div>
                 </div>
 
             </div>

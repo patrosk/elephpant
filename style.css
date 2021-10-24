@@ -5,8 +5,9 @@
 body {
   font-size: 16px;
   color: white;
-  font-family: 'Roboto';
+  font-family: 'Barlow';
   background-image: url('/img/laura.jpg');
+  margin: 0;
 }
 /* Background Image by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
@@ -15,10 +16,39 @@ body {
 Photo by <a href="https://unsplash.com/@jawfox_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Jawfox</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
 
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 4rem;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-image: url('/img/alex.jpg');
+}
+
+.menu {
+  margin-top: 0.6rem;
+}
+
+.menu > div {
+  width: 2.5rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 6px;
+  margin: 0.4rem;
+}
+
 h1 {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+main {
+  margin: 1rem;
+  margin-top: 80px;
 }
 
 h2 {
@@ -40,7 +70,7 @@ h2 {
 
 .information {
   margin: 10px;
-  background-color: rgb(68, 68, 107);
+  background-image: url('/img/alex.jpg');
   border-radius: 20px;
   width: 272px;
   display: flex;
@@ -61,10 +91,11 @@ img {
   transition: 0.5s ease;
   box-shadow: 5px 5px 10px black;
   margin: 1rem;
+  opacity: 60%;
 }
 
 img:hover {
-  opacity: 60%;
+  opacity: 100%;
 }
 
 img:hover + ul {
@@ -78,7 +109,7 @@ img:hover ~ .story {
 .information:hover {
   /* width: 100%; */
   box-shadow: 10px 10px 15px black;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .information li {
@@ -100,13 +131,55 @@ footer {
   text-align: center;
 }
 
+/* Gallery page */
+
+.gallery {
+  margin: 10px;
+  background-image: url('/img/alex.jpg');
+  border-radius: 20px;
+  width: 200px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery > .name {
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+
+.read_more {
+  display: none;
+  color: lightgreen;
+}
+
+.gallery:hover {
+  box-shadow: 10px 10px 15px black;
+  transform: scale(1.1);
+}
+
+.gallery:hover + .name {
+  display: none;
+}
+
+.gallery:hover + .read_more {
+  display: inline;
+}
+
 @media screen and (min-width: 430px) {
   body {
     max-height: 1500px;
     color: darkblue;
     font-size: 1.5rem;
-    margin-left: 5rem;
-    margin-right: 10rem;
+  }
+  .gallery {
+    width: 13rem;
+  }
+
+  .gallery img {
+    width: 11rem;
+    height: 16.5rem;
   }
 
   img {

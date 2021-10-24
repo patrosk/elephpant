@@ -12,3 +12,15 @@
 </head>
 
 <body>
+
+    <nav>
+        <div>
+            <h1>What is a Monster?</h1>
+        </div>
+        <div class="menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <main>

@@ -1,5 +1,6 @@
 <?php ?>
 
+</main>
 <footer>Copyright Nema Vinkeloe Uuskyla ©<?php echo date('Y') ?> </footer>
 </body>
 
