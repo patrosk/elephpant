@@ -20,7 +20,7 @@
 
             <div class="information">
                 <div class="name"> <?php echo $name ?></div>
-                <img src="<?php echo $image ?>">
+                <img class="monster_image" src="<?php echo $image ?>">
                 <ul class>
                     <li>Creature: <?php echo $creature ?></li>
                     <li>Location: <?php echo $location ?></li>

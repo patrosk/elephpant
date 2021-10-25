@@ -6,7 +6,8 @@ body {
   font-size: 16px;
   color: white;
   font-family: 'Barlow';
-  background-image: url('/img/laura.jpg');
+  background-color: blanchedalmond;
+  /* background-image: url('/img/laura.jpg'); */
   margin: 0;
 }
 /* Background Image by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -15,6 +16,11 @@ body {
 /* Blue picture:
 Photo by <a href="https://unsplash.com/@jawfox_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Jawfox</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
+
+.pattern {
+  width: 200%;
+  height: 50px;
+}
 
 nav {
   width: 100%;
@@ -25,7 +31,8 @@ nav {
   display: flex;
   justify-content: center;
   gap: 10px;
-  background-image: url('/img/alex.jpg');
+  background-image: url('/img/laura.jpg');
+  /* background-image: url('/img/alex.jpg'); */
 }
 
 .menu {
@@ -59,7 +66,6 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
 }
 
 .box {
@@ -70,7 +76,8 @@ h2 {
 
 .information {
   margin: 10px;
-  background-image: url('/img/alex.jpg');
+  /* background-image: url('/img/alex.jpg'); */
+  background-image: url('/img/laura.jpg');
   border-radius: 20px;
   width: 272px;
   display: flex;
@@ -84,7 +91,7 @@ h2 {
   margin-top: 1rem;
 }
 
-img {
+.monster_image {
   height: 15rem;
   width: 10rem;
   border-radius: 6px;
@@ -135,7 +142,8 @@ footer {
 
 .gallery {
   margin: 10px;
-  background-image: url('/img/alex.jpg');
+  /* background-image: url('/img/alex.jpg'); */
+  background-image: url('/img/laura.jpg');
   border-radius: 20px;
   width: 200px;
   display: flex;
@@ -163,7 +171,7 @@ footer {
   display: none;
 }
 
-.gallery:hover + .read_more {
+.gallery:hover ~ .read_more {
   display: inline;
 }
 

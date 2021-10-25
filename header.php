@@ -14,6 +14,7 @@
 <body>
 
     <nav>
+        <img class="pattern" src="/img/keypatternlong.png">
         <div>
             <h1>What is a Monster?</h1>
         </div>
