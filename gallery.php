@@ -15,7 +15,7 @@
             <div class="gallery">
                 <div class="name"> <?php echo $name ?></div>
                 <div class="read_more"><a href="">Read more</a></div>
-                <img src="<?php echo $image ?>">
+                <img class="monster_image" src="<?php echo $image ?>">
             </div>
 
         <?php endforeach ?>
