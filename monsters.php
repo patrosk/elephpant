@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 $monsters = [
     [
         'name' => 'Medusa',
@@ -28,7 +30,11 @@ $monsters = [
         'weakness' => 'Trapped in the Labyrinth',
         'slain_by' => 'Theseus',
 
-        'story' => 'PLACEHOLDER TEXT',
+        'story' => "Angry that the king didn't sacrifice a bull to Poseidon as intended, the Sea God made the king's
+        wife fall in love with the snow-white bull. The result of this love was Minotaur, a creature with the body of
+        a man and the head and tail of a bull. Since there was no natural source of nourishment, Minotaur started eating
+        humans to stay alive. Fearing the man-eating beast, the king commissioned a huge labyrinth, in which Minotaur was
+        trapped. ",
     ],
 
     [

@@ -14,7 +14,6 @@
 
             <div class="gallery">
                 <div class="name"> <?php echo $name ?></div>
-                <div class="read_more"><a href="">Read more</a></div>
                 <img class="monster_image" src="<?php echo $image ?>">
             </div>
 

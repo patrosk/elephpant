@@ -4,10 +4,9 @@
 
 body {
   font-size: 16px;
-  color: white;
+  color: darkblue;
   font-family: 'Barlow';
-  background-color: blanchedalmond;
-  /* background-image: url('/img/laura.jpg'); */
+  background-color: #d1daf8;
   margin: 0;
 }
 /* Background Image by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -17,10 +16,17 @@ body {
 Photo by <a href="https://unsplash.com/@jawfox_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Jawfox</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
 
-.pattern {
-  width: 300%;
-  height: 50px;
+.pattern_top {
+  background-image: url('/img/keypatternlong.png');
+  height: 95px;
+  margin-top: 60px;
 }
+.pattern_bottom {
+  background-image: url('/img/keypatternlong.png');
+  height: 95px;
+}
+
+/* HEADER STYLING  */
 
 nav {
   width: 100%;
@@ -32,7 +38,6 @@ nav {
   justify-content: center;
   gap: 10px;
   background-image: url('/img/laura.jpg');
-  /* background-image: url('/img/alex.jpg'); */
 }
 
 .menu {
@@ -47,15 +52,64 @@ nav {
   margin: 0.4rem;
 }
 
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: darkblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* CONTENT STYLING */
+
 h1 {
   font-size: 1.35rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: white;
 }
 
 main {
   margin: 1rem;
-  margin-top: 80px;
 }
 
 h2 {
@@ -76,7 +130,6 @@ h2 {
 
 .information {
   margin: 10px;
-  /* background-image: url('/img/alex.jpg'); */
   background-image: url('/img/laura.jpg');
   border-radius: 20px;
   width: 272px;
@@ -84,11 +137,14 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 10px 10px 15px black;
 }
 
 .name {
   font-size: 2rem;
   margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
 }
 
 .monster_image {
@@ -98,25 +154,11 @@ h2 {
   transition: 0.5s ease;
   box-shadow: 5px 5px 10px black;
   margin: 1rem;
-  opacity: 60%;
+  margin-top: 0;
 }
 
 img:hover {
   opacity: 100%;
-}
-
-img:hover + ul {
-  display: none;
-}
-
-img:hover ~ .story {
-  display: inline-block;
-}
-
-.information:hover {
-  /* width: 100%; */
-  box-shadow: 10px 10px 15px black;
-  transform: scale(1.05);
 }
 
 .information li {
@@ -129,20 +171,14 @@ ul {
   margin: 0;
 }
 
-.story {
-  padding: 2rem;
-  display: none;
-}
-
 footer {
   text-align: center;
 }
 
-/* Gallery page */
+/* GALLERY VIEW STYLING */
 
 .gallery {
   margin: 10px;
-  /* background-image: url('/img/alex.jpg'); */
   background-image: url('/img/laura.jpg');
   border-radius: 20px;
   width: 200px;
@@ -157,9 +193,8 @@ footer {
   margin-top: 0;
 }
 
-.read_more {
-  display: none;
-  color: lightgreen;
+.gallery > img {
+  opacity: 60%;
 }
 
 .gallery:hover {
@@ -167,12 +202,12 @@ footer {
   transform: scale(1.1);
 }
 
-.gallery:hover + .name {
-  display: none;
+.gallery:hover img {
+  opacity: 100%;
 }
 
-.gallery:hover ~ .read_more {
-  display: inline;
+.story {
+  padding: 2rem;
 }
 
 @media screen and (min-width: 430px) {

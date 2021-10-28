@@ -1,4 +1,8 @@
-<?php ?>
+<?php
+
+declare(strict_types=1);
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,14 +18,25 @@
 <body>
 
     <nav>
-        <img class="pattern" src="/img/keypatternlong.png">
+        <div class="dropdown">
+            <button class="dropbtn">
+                <div class="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </button>
+            <div class="dropdown-content">
+                <a href="/gallery.php">Gallery</a>
+                <a href="/about.php">About the monsters</a>
+                <a href="/evil.php">Are they evil?</a>
+                <a href="#">Tell me a story</a>
+            </div>
+        </div>
         <div>
             <h1>What is a Monster?</h1>
         </div>
-        <div class="menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+
     </nav>
+    <div class="pattern_top"></div>
     <main>

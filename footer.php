@@ -1,7 +1,7 @@
 <?php ?>
 
 </main>
-<img class="pattern" src="/img/keypatternlong.png">
+<div class="pattern_bottom"></div>
 <footer>Copyright Nema Vinkeloe Uuskyla ©<?php echo date('Y') ?> </footer>
 </body>
 
