@@ -30,14 +30,20 @@
 
                 if ($_GET['sorting'] === $name) { ?>
                     <div class="information">
-                        <div class="name"> <?php echo $name ?></div>
-                        <img class="monster_image" src="<?php echo $image ?>">
+                        <div class="name"> <?= $name ?></div>
+                        <img class="monster_image" src="<?= $image ?>">
                         <ul class>
-                            <li>Creature: <?php echo $creature ?></li>
-                            <li>Location: <?php echo $location ?></li>
-                            <li>Powers: <?php echo $powers ?></li>
-                            <li>Weakness: <?php echo $weakness ?></li>
-                            <li>Slain By: <?php echo $slain_by ?></li>
+                            <li>Creature:<p><?= $creature ?>
+                                <p>
+                            </li>
+                            <li>Location: <p><?= $location ?></p>
+                            </li>
+                            <li>Powers: <p><?= $powers ?></p>
+                            </li>
+                            <li>Weakness: <p><?= $weakness ?></p>
+                            </li>
+                            <li>Slain By: <p><?= $slain_by ?></p>
+                            </li>
                         </ul>
             <?php }
             }

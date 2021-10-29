@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+/* HEADER STYLING  */
+
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 4rem;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-image: url('/img/laura.jpg');
+}
+
+.menu {
+  margin-top: 0.6rem;
+}
+
+.menu > div {
+  width: 2.5rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 6px;
+  margin: 0.4rem;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: darkblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

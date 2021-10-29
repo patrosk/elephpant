@@ -27,9 +27,9 @@
                     <div class="information">
                         <div class="name"> <?= $name ?></div>
                         <img class="monster_image" src="<?php echo $image ?>">
-                        <div class="story">
+                        <article class="story">
                             <?= $story ?>
-                        </div>
+                        </article>
             <?php }
             }
         } ?>

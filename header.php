@@ -12,7 +12,12 @@ declare(strict_types=1);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monsters</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="gallery_style.css">
+    <link rel="stylesheet" href="about_style.css">
+    <link rel="stylesheet" href="evil_style.css">
+    <link rel="stylesheet" href="randomstory_style.css">
+    <link rel="stylesheet" href="header_style.css">
 </head>
 
 <body>
@@ -38,5 +43,5 @@ declare(strict_types=1);
         </div>
 
     </nav>
-    <div class="pattern_top"></div>
+    <div class="pattern"></div>
     <main>
