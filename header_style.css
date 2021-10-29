@@ -83,3 +83,9 @@ h1 {
   color: white;
   margin-right: 15px;
 }
+
+@media screen and (min-width: 430px) {
+  nav {
+    justify-content: space-between;
+  }
+}

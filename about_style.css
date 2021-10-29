@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+/* ABOUT PAGE STYLING */
 
 form {
   align-self: center;
@@ -40,4 +38,17 @@ ul {
 
 .information {
   border: solid 2px black;
+}
+
+@media screen and (min-width: 430px) {
+  body {
+    max-height: 1500px;
+    color: darkblue;
+    font-size: 1.5rem;
+  }
+
+  img {
+    height: 21rem;
+    width: 14rem;
+  }
 }

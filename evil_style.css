@@ -1,0 +1,56 @@
+/* EVIL PAGE STYLING */
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stats > .name {
+  margin-left: 41px;
+}
+
+.stats > .monster_image {
+  align-self: center;
+  margin-bottom: 2rem;
+}
+
+.story {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+@media screen and (min-width: 430px) {
+  body {
+    max-height: 1500px;
+    color: darkblue;
+    font-size: 1.5rem;
+  }
+
+  .stats > .name {
+    align-self: center;
+    margin-left: 0;
+  }
+
+  .information#story {
+    width: 100%;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .stats > .name {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .stats > .monster_image {
+    height: 30rem;
+    width: 20rem;
+    margin-right: 2rem;
+  }
+
+  .stats {
+    float: left;
+    margin-top: 0;
+  }
+}

@@ -88,10 +88,6 @@ footer {
   text-align: center;
 }
 
-.story {
-  padding: 2rem;
-}
-
 @media screen and (min-width: 430px) {
   body {
     max-height: 1500px;

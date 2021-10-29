@@ -13,8 +13,8 @@
             $image = $monster['image']; ?>
 
             <div class="gallery">
-                <div class="name"> <?php echo $name ?></div>
-                <img class="monster_image" src="<?php echo $image ?>">
+                <div class="name"> <?= $name ?></div>
+                <img class="monster_image" src="<?= $image ?>">
             </div>
 
         <?php endforeach ?>
