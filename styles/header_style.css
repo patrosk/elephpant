@@ -47,6 +47,7 @@ nav {
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: darkblue;
+  opacity: 80%;
 }
 
 .dropdown-content {
@@ -73,4 +74,12 @@ nav {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 15px;
 }

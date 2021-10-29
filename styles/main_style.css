@@ -24,13 +24,6 @@ Photo by <a href="https://unsplash.com/@jawfox_photography?utm_source=unsplash&u
 
 /* CONTENT STYLING */
 
-h1 {
-  font-size: 1.35rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: white;
-}
-
 main {
   margin: 1rem;
   display: flex;

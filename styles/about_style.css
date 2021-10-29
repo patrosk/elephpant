@@ -8,7 +8,7 @@ form {
   margin-bottom: 10px;
 }
 
-button {
+form > button {
   border: none;
   border-radius: 6px;
   height: 1.4rem;
@@ -36,4 +36,8 @@ ul {
   list-style: none;
   padding: 2rem;
   margin: 0;
+}
+
+.information {
+  border: solid 2px black;
 }
