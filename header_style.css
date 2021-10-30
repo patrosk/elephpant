@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 /* HEADER STYLING  */
 
 nav {
@@ -15,6 +11,8 @@ nav {
   gap: 10px;
   background-image: url('/img/laura.jpg');
 }
+/* Background Image by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
 
 .menu {
   margin-top: 0.6rem;
@@ -81,11 +79,46 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  margin-right: 15px;
+}
+
+h1 a:hover {
+  color: darkblue;
+}
+
+.menu_bar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 430px) {
-  nav {
-    justify-content: space-between;
+  h1 {
+    margin-right: 0;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .menu_bar {
+    display: inline;
+    list-style-type: none;
+    margin-top: -1rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .menu_bar > li {
+    display: inline;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  li > a:hover {
+    color: darkblue;
   }
 }

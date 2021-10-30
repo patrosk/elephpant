@@ -9,12 +9,6 @@ body {
   background-color: #d1daf8;
   margin: 0;
 }
-/* Background Image by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   */
-
-/* Blue picture:
-Photo by <a href="https://unsplash.com/@jawfox_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Jawfox</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   */
 
 .pattern {
   background-image: url('/img/keypatternlong.png');
@@ -47,6 +41,29 @@ h2 {
   flex-wrap: wrap;
 }
 
+img {
+  width: 100%;
+}
+
+.akropolis_small {
+  margin-bottom: 20px;
+}
+
+.akropolis_large {
+  display: none;
+}
+
+.definition {
+  width: 80%;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.question {
+  margin: 2rem;
+  font-weight: 600;
+}
+
 .information {
   margin: 10px;
   background-image: url('/img/laura.jpg');
@@ -58,6 +75,8 @@ h2 {
   align-items: center;
   box-shadow: 10px 10px 15px black;
 }
+/* Background Image by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
 
 .name {
   font-size: 2rem;
@@ -95,7 +114,16 @@ footer {
     font-size: 1.5rem;
   }
 
-  img {
+  .akropolis_small {
+    display: none;
+  }
+
+  .akropolis_large {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .monster_img {
     height: 21rem;
     width: 14rem;
   }

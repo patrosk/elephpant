@@ -133,7 +133,7 @@ $monsters = [
         Circe, who promised to make a potion that would make Scylla love him back.",
 
             "However, Circe herself fell in love with Glaucus. In her
-        jealousy of the beautiful naiad, she poisoned the water in the spring where Scylla bathed, turning the her into a terrible monster with twelve tentacles
+        jealousy of the beautiful naiad, she poisoned the water in the spring where Scylla bathed, turning her into a terrible monster with twelve tentacles
         and six snakelike heads with three rows of razor-sharp teeth.",
 
             "Scylla was condemned to live as this frightful monster on the
@@ -172,7 +172,7 @@ $monsters = [
 
             "The proverb to be 'between Scylla and Charybdis' is still used today to describe a situation
         where one is presented with two opposite dangers, where one has to find a route that avoids both or simply choose the lesser of two evils.
-        There is a whirlpool located on the coast of Sicily, opposite the Rock of Scilla, where two currents meet. However, it is so small that
+        There is in fact a whirlpool located on the coast of Sicily, opposite the Rock of Scilla, where two currents meet. However, it is so small that
         it is only dangerous in extreme weather conditions.",
         ]
     ],

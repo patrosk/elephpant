@@ -29,9 +29,11 @@
                 $image = $monster['image'];
 
                 if ($_GET['sorting'] === $name) { ?>
-                    <div class="information">
-                        <div class="name"> <?= $name ?></div>
-                        <img class="monster_image" src="<?= $image ?>">
+                    <div class="information" id="about">
+                        <div class="information_about">
+                            <div class="name"> <?= $name ?></div>
+                            <img class="monster_image" src="<?= $image ?>">
+                        </div>
                         <ul class>
                             <li>Creature:<p><?= $creature ?>
                                 <p>

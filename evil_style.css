@@ -20,15 +20,11 @@
 }
 
 @media screen and (min-width: 430px) {
-  body {
-    max-height: 1500px;
-    color: darkblue;
-    font-size: 1.5rem;
-  }
-
   .stats > .name {
     align-self: center;
     margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 0;
   }
 
   .information#story {
@@ -36,11 +32,6 @@
     display: block;
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .stats > .name {
-    margin-bottom: 20px;
-    margin-top: 0;
   }
 
   .stats > .monster_image {

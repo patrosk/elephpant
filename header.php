@@ -39,8 +39,14 @@ declare(strict_types=1);
             </div>
         </div>
         <div>
-            <h1>What is a Monster?</h1>
+            <h1><a href="/index.php">What is a Monster?<a></h1>
         </div>
+        <ul class="menu_bar">
+            <li><a href="/gallery.php">Gallery</a></li>
+            <li><a href="/about.php">About the Monsters</a></li>
+            <li><a href="/evil.php">Are they evil?</a></li>
+            <li><a href="/story.php">Tell me a story</a></li>
+        </ul>
 
     </nav>
     <div class="pattern"></div>

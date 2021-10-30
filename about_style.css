@@ -40,15 +40,41 @@ ul {
   border: solid 2px black;
 }
 
-@media screen and (min-width: 430px) {
-  body {
-    max-height: 1500px;
-    color: darkblue;
-    font-size: 1.5rem;
-  }
+.information_about {
+  display: flex;
+  flex-direction: column;
+}
 
-  img {
+.information_about > .name {
+  align-self: center;
+}
+
+@media screen and (min-width: 430px) {
+  .monster_img {
     height: 21rem;
     width: 14rem;
+  }
+
+  .information#about {
+    width: 100%;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .information_about > .monster_image {
+    height: 30rem;
+    width: 20rem;
+    margin-right: 2rem;
+  }
+
+  .information_about {
+    float: left;
+    margin-top: 0;
+  }
+
+  .information_about > .name {
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 }
