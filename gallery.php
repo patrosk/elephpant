@@ -14,7 +14,7 @@
 
             <div class="gallery">
                 <div class="name"> <?= $name ?></div>
-                <img class="monster_image" src="<?= $image ?>">
+                <img class="monster_image" src="<?= $image ?>" alt="<?= $name ?>">
             </div>
 
         <?php endforeach ?>

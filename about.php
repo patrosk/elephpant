@@ -32,7 +32,7 @@
                     <div class="information" id="about">
                         <div class="information_about">
                             <div class="name"> <?= $name ?></div>
-                            <img class="monster_image" src="<?= $image ?>">
+                            <img class="monster_image" src="<?= $image ?>" alt="<?= $name ?>">
                         </div>
                         <ul class>
                             <li>Creature:<p><?= $creature ?>
