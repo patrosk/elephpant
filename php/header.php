@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 ?>
 
 <!DOCTYPE html>
@@ -16,8 +14,8 @@ declare(strict_types=1);
     <link rel="stylesheet" href="/styles/gallery_style.css">
     <link rel="stylesheet" href="/styles/about_style.css">
     <link rel="stylesheet" href="/styles/evil_style.css">
-    <link rel="stylesheet" href="/styles/randomstory_style.css">
     <link rel="stylesheet" href="/styles/header_style.css">
+    <link rel="icon" href="/medusa.ico" type="image/x-icon">
 </head>
 
 <body>

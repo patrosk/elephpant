@@ -7,17 +7,26 @@
 
 <div class="container">
     <div class="box">
-        <img class="akropolis_small" src="/img/akropolis.jpeg">
-        <article class=""> <?php echo $stories[0]['story'][0] ?>
-        </article>
-        <article class=""> <?php  ?>
-        </article>
-        <article class="question">
-            What really is a monster?
-        </article>
-        <img class="akropolis_large" src="/img/akropolis.jpeg">
+        <?php
+
+        $i = rand(0, 3);
+        $title = $stories[$i]['title'];
+        $image = $stories[$i]['image'];
+        $alt = $stories[$i]['alt_text'];
+        $story = $stories[$i]['story'];
+
+        ?>
+
+        <img class="akropolis_small" src="<?= $image ?>" alt="<?= $alt ?>">
+        <div class="alt_small"><?= $alt ?></div>
+        <h3><?= $title ?></h3>
+        <?php foreach ($story as $paragraph) : ?>
+            <article class="definition"> <?= $paragraph ?></article>
+        <?php endforeach ?>
+        <img class="akropolis_large" src="<?= $image ?>" alt="<?= $alt ?>">
+        <div class="alt_large"><?= $alt ?></div>
     </div>
 </div>
-
+<div class="tip">Refresh this page for another story!</div>
 
 <?php require __DIR__ . '/php/footer.php'; ?>

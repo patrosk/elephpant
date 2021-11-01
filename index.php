@@ -1,8 +1,9 @@
 <?php require __DIR__ . '/php/header.php'; ?>
 <?php require __DIR__ . '/php/monsters.php' ?>
+<?php require __DIR__ . '/php/functions.php' ?>
 
 
-<h2>Monsters in Greek Mythology</h2>
+<h2><?= get_h2() ?></h2>
 
 <div class="container">
     <div class="box">
@@ -18,5 +19,5 @@
     </div>
 </div>
 
-
+<div class="tip"><?= tip() ?></div>
 <?php require __DIR__ . '/php/footer.php'; ?>

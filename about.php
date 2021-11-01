@@ -1,6 +1,6 @@
 <?php require __DIR__ . '/php/header.php'; ?>
 <?php require __DIR__ . '/php/monsters.php' ?>
-
+<?php require __DIR__ . '/php/functions.php' ?>
 
 <h2>About the Monsters</h2>
 
@@ -47,7 +47,11 @@
                             <li>Slain By: <p><?= $slain_by ?></p>
                             </li>
                         </ul>
-            <?php }
+                    </div>
+        <?php }
             }
         } ?>
-            <?php require __DIR__ . '/php/footer.php'; ?>
+    </div>
+</div>
+<div class="tip"><?= tip() ?></div>
+<?php require __DIR__ . '/php/footer.php'; ?>

@@ -2,10 +2,12 @@
 
 declare(strict_types=1);
 
-require __DIR__ . '/randomstory.php';
-
-function getRandomStory(array $array)
+function get_h2()
 {
-    foreach ($array as $key => $value) {
-    }
+    return "Monsters in Greek Mythology";
+};
+
+function tip()
+{
+    return "Want to read more? Check out the different tabs!";
 };
