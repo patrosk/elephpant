@@ -1,12 +1,27 @@
-INSERT MANDATORY GIF
+<iframe src="https://giphy.com/embed/9JVsPnYq2quRy" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/medusa-9JVsPnYq2quRy">via GIPHY</a></p>
 
 # Monsters
 
-Monsters is a small page about six monsters from Greek Mythology. It presents their stories and questions what a monster really is. Link to the live page:
+Monsters is about six monsters from Greek Mythology. It presents their stories and questions what a monster really is. Link to the live page:
 
 # Installation
 
-Add the installation instructions.
+Install this project by following these steps:
+
+- Clone the repository from this address:
+
+  > https://github.com/patrosk/elephpant
+
+- In the project's root folder, start a php server by typing this in your terminal:
+
+  > php -S localhost:8000
+
+- Open up your browser and paste this URL in the address bar:
+
+  > https://localhost:8000
+
+- If that doesn't work, paste this in the address bar instead:
+  > https://localhost:8000/index.php
 
 # Code Review
 
