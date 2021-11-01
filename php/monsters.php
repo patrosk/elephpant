@@ -38,7 +38,7 @@ $monsters = [
         Perseus gifted Medusa's head to Athena who put it in her shield, thereby creating a powerful weapon.",
 
             "Although described as a hideous monster, Medusa was ultimately a victim of the gods' lust and anger. Making her pay for
-        Poseidon's crime is, I'd say, just cruel. To make matters worse, she was hunted down and killed in order
+        Poseidon's crime is, to put it mildly, just cruel. To make matters worse, she was hunted down and killed in order
         for a hero to gain recognition. Victim-blaiming much??",
         ]
     ],
@@ -61,7 +61,7 @@ $monsters = [
             "Fearing the man-eating beast, the king commissioned a huge labyrinth, in which Minotaur was
         trapped. To keep the beast in check, fourteen youths were sacrificed at regular intervals.
         The youths were sent into the labyrinth to be hunted down and devoured by Minotaur. The hero Theseus volunteered
-        to join the third batch of youths to be sacrificed to kill the monster. He was aided by the king's daughter who fell in
+        to join the third batch of youths to be sacrificed, in order to kill the monster. He was aided by the king's daughter who fell in
         love with him; she gave him a ball of yarn which allowed him to retrace his stepts and navigate in the labyrinth.
         He managed to kill the Minotaur and led the youths out of the labyrinth.",
 
@@ -70,7 +70,7 @@ $monsters = [
         saw his ship approaching and, presuming his son to be dead, committed suicide. This secured the throne for Theseus.",
 
             "Minotaur is depicted as a ferocious monster, but it could also be argued that he was merely the result of a cruel joke by
-        Poseidon. Trapping a beast in a labyrinth and then sending youths to be sacrificed or to kill it is also, I'd say,
+        Poseidon. Trapping a beast in a labyrinth and then sending youths to be sacrificed or to kill it is also, arguably,
         in the gray area of morality.",
         ]
 
@@ -92,7 +92,8 @@ $monsters = [
 
             "Hercules found himself fighting with an increasingly powerful creature, and it was only with the help of his nephew that he realised he
         could defeat it by scorching the neck stumps after decapitation, thus preventing new heads from growing. In this manner,
-        he finally defeated Hydra. The one immortal head of Hydra was cut off with a golden sword and put under a stone. Hercules then dipped his arrows in Hydra's venomous blood and used it to kill his coming enemies. Hera, upset that Hydra didn't kill Hercules,
+        he finally slayed Hydra. The one immortal head of Hydra was cut off with a golden sword and put under a stone. Hercules
+        then dipped his arrows in Hydra's venomous blood and used it to kill his coming enemies. Hera, upset that Hydra didn't kill Hercules,
         placed Hydra in the sky, thus creating the constellation Hydra.",
 
             "Like many monsters in Greek Mythology, Hydra was placed in
@@ -128,7 +129,7 @@ $monsters = [
         island.",
 
             "It is understandable that Odysseus felt compelled to contrive a plan to escape after seeing two men of his crew being devoured
-        every night, but I cannot help feeling for Polyphemus losing his only eye.",
+        every night, but gouging someone's only eye out is also pretty mean.",
         ],
     ],
 

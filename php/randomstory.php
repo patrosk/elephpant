@@ -9,7 +9,7 @@ $stories = [
         'alt_text' => "Painting: The rape of Proserpine by Simone Pignoni, 1650.",
         'story' => [
             "Perspehone was the beautiful daughter of Demeter, the goddess of harvest, grain, fertility
-    and all living plants. One day, while she was picking flowers on the fields of Sicily,
+    and all living plants. While she was picking flowers on the fields of Sicily one day,
     Hades, the god of the Underworld, appeared in his chariot and kidnapped her. He took her to
     the Underworld where she was kept prisoner for several years. Her mother Demeter was devastated that
     her daughter had disappeared, and spent years searching for her. She was so busy with worrying about
@@ -20,7 +20,7 @@ $stories = [
     had been taken. She demanded that Hades return her, and he agreed but for one condition: Persephone must
     have spent her time in the Underworld without touching any of the food there. The food in the Underworld is
     the food of the dead, and whoever eats it must spend eternity there. Perspehone said she had never touched
-    the food she was returned to her mother. Demeter was so happy that all plants quickened, fields
+    the food and was returned to her mother. Demeter was so happy that all plants quickened, fields
     were filled with grain and sweet fruits hung from the trees. Hades was furious, he wanted Persephone as his queen.
     He interrogated every soul in the Underworld until he found one who testified that Perspehone, in her desperation
     to quench her thirst, had eaten seven seeds of a pomegranate.",
@@ -49,20 +49,20 @@ $stories = [
         worry-free lives in sunshine and happiness until they died of old age. Next, Zeus created humans who unfortunately turned
         out to ignore the gods completely. They were arrogant and complacent and constatntly arguing with each other, which
         eventually made Zeus exterminate them all. Zeus created another batch of humans - these were smarter and gifted but
-        instead of using it for good, they spent all their time and capacities to design and manufacture weapons, with which
+        instead of using it for good, they spent all their time and capacities to design and manufacture weapons, which
         they then used to kill each other. Eventually, all of them were dead and spent eternity in the Underworld. Zeus made one
         last attempt at creating humans and this time, he was succesful. He created the Age of Heroes, with numerous extraordinary
         humans that would come to be praised in the ages to come.",
 
             "Like the other gods on Olympus, one of Zeus' favourite past-times
         was visiting the mortal humans. His object was often to help those in need, but his meddling did not always end up
-        improving the humans' lives. Zeus and his wife Hera were an odd couple, almost constantly bickering and arguing. One constant
+        improving humans' lives. Zeus and his wife Hera were an odd couple, almost constantly bickering and arguing. One constant
         source of quarrel was Zeus permanent infidelity. Many are the stories where he visits beautiful mortal women, courts them, and if
         they aren't charmed by him, he transforms himself into various creatures to win them over. To gain Hera's affection,
-        he once turned himself into a sickly cuckoo, which she nursed back to health. Other animals ornatural phenomena he transformed himself into, and often
-        engaged in sexual activities with women, include a swan, an eagle, a shower of gold, a flame of fire, a bull, an ant, a bear, a goose,
+        he once turned himself into a sickly cuckoo, which she nursed back to health. Other animals or natural phenomena he transformed himself into, and often
+        engaged in sexual activities with women as, include a swan, an eagle, a shower of gold, a flame of fire, a bull, an ant, a bear, a goose,
         a serpent, a vulture and a satyr (male nature spirit with the body of a man but the ears and tail of a horse and a permanent
-        erection), among others. Those who he could not seduce in these forms, he abducted and/or raped. He also transformed himself on numerous occassions to other people in order to seduce women. For example,
+        erection), among others. Those who he could not seduce in these forms, he abducted and/or raped. He also transformed himself to other people on numerous occassions in order to seduce women. For example,
         Alcmene slept with Zeus while he was disguised as her husband, and he pulled the same trick on Cassiopeia. Calling Zeus a sex addict
         is maybe unfair - a more fitting adjective would be 'enourmus asshole'."
         ],
@@ -85,16 +85,17 @@ $stories = [
 
             "Trojan prince Paris came to Sparta on a supposed diplomatic
             mission - in reality, he had come to claim Helen. Paris had been ordered by Zeus to appoint the most beautiful of the goddesses Hera,
-            Aphrodite and Athena. Paris chose Aphrodite after she promised him the world's most beautiful woman. Paris and Helen fell in love and she fled her unhappy marriage to Menelaus and escaped with Paris to Troy. Furious, Menelaus called on all
+            Aphrodite and Athena. Paris chose Aphrodite after she promised him the world's most beautiful woman. Paris and Helen fell in love
+            and she fled her unhappy marriage to Menelaus and escaped with Paris to Troy. Furious, Menelaus called on all
             the other suitors to fulfil their oath, thus starting the Trojan War.",
 
             "A delegation was dispatched where Odysseus tried to convince
             the Trojan king Priam to hand Helen back. He refused. The war began and Troy was under siege; Helen was filled with self-loathing
-            and regret for what her escape had caused. The war was a bloodbath and at its end, The Trojans hated Helen. Hector, the oldest son of Priam and Troy's
+            and regret for what her escape had caused. The war was a bloodbath and at its end, the Trojans hated Helen. Hector, the oldest son of Priam and Troy's
             greatest warrior was killed by Achilles, and Paris was eventually killed in combat. The Greeks entered Troy in the wooden horse and sacked
             the city. Troy was burning and Helen could not find sanctuary anywhere; both Trojans and Greeks were ready to stone her to death. When
-            Menelaus found her, he raised his sword to kill her, but then she dropped her robes to the ground and thus revealed her naked body.
-            The sight of her beauty made Menelaus drop his sword. Helen returned to Sparta with Menelaus. A tragic end to a tragic story, mostly fuelled
+            Menelaus found her, he raised his sword to kill her, but then her robes slipped from her body and dropped to the ground, thus revealing her naked body.
+            The sight of her beauty made Menelaus drop his sword, and Helen returned to Sparta with Menelaus. A tragic end to a tragic story, mostly fuelled
             by men's desire to control or gain the affections of a beautiful woman.",
         ],
 
@@ -107,7 +108,7 @@ $stories = [
         'story' => [
             "Zeus may have taken credit for creating mankind, but he only managed with the help of the titan Prometheus. Prometheus
             was wise and kind and saw the potential of the humans - he wanted to teach them all he could. Zeus was afraid that if they knew too much, humans could pose
-            a threat to the gods on Olympus. Therefore, he forbade Prometheus to teach the mortals how to make fire; without that, Zeus
+            a threat to the gods on Mount Olympus. Therefore, he forbade Prometheus to teach the mortals how to make fire; without that, Zeus
             deemed it impossible for them to pose a real threat. But Prometheus already loved the humans and went behind Zeus' back and
             showed the humans how to make fire. The humans developed rapidly - from being primitive and helpless, they quickly became skilled
             craftsmen, farmers and architects. When Zeus found out about Prometheus' betrayal, he was furios. He chained the titan to a rock

@@ -1,8 +1,10 @@
-<img src="https://giphy.com/embed/9JVsPnYq2quRy" width="100%">
+<img src="https://media4.giphy.com/media/9JVsPnYq2quRy/giphy.gif?cid=ecf05e47jpoj7p3zccy33u8n43nvc80psyn42e3j372u4gta&rid=giphy.gif&ct=g" width="100%">
 
 # Monsters
 
 Monsters is about six monsters from Greek Mythology. It presents their stories and questions what a monster really is. Link to the live page:
+
+Disclaimer: I do not own any of the images used in the project, except for the key pattern.
 
 # Installation
 
