@@ -95,7 +95,13 @@ a {
   font-weight: 600;
 }
 
-@media screen and (min-width: 430px) {
+.pattern {
+  background-image: url('/img/keypatternlong.png');
+  height: 95px;
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 870px) {
   h1 {
     margin-right: 0;
   }

@@ -4,7 +4,7 @@
 
 <footer>
     <div class="pattern"></div>
-    <div>Copyright Nema Vinkeloe Uuskyla ©<?php echo date('Y') ?></div>
+    <div>Copyright Nema Vinkeloe Uuskyla ©<?= date('Y') ?></div>
 </footer>
 </body>
 

@@ -2,6 +2,19 @@
 
 declare(strict_types=1);
 
+$monster_definition = [
+    "A monster is usually defined as a large, frightening and evil imaginary creature. It often implies
+    a repulsive character, an object of dread, awful deeds or abomination. Monsters are often depicted as inherently evil beings that
+    are dangerous and aggressive and have a grotesque and abnormal appearance that inspires terror and fear. Most monsters share some
+    similarities with animals or humans, but are hideously deformed in one way or another. They often herald destruction and death and
+    threaten the moral or social order of human existence.",
+
+    "Greek Mythology presents a plethora of monsters, varying in size, form and origin. Many of them are
+    the result of curses or transformations, and although the monsters are depicted as evil and terrible creatures, they often have
+    tragic backstories. This page presents information about six monsters found in Greek Mythology and tells their story. And depending
+    on how you read them, you might ask yourself the question:",
+];
+
 $monsters = [
     [
         'name' => 'Medusa',
@@ -25,7 +38,7 @@ $monsters = [
         Perseus gifted Medusa's head to Athena who put it in her shield, thereby creating a powerful weapon.",
 
             "Although described as a hideous monster, Medusa was ultimately a victim of the gods' lust and anger. Making her pay for
-        Poseidon's crime is, I'd say, more than questionable. To make matters worse, she was hunted down and killed in order
+        Poseidon's crime is, I'd say, just cruel. To make matters worse, she was hunted down and killed in order
         for a hero to gain recognition. Victim-blaiming much??",
         ]
     ],
