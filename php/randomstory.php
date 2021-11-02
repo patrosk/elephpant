@@ -5,7 +5,7 @@ declare(strict_types=1);
 $stories = [
     [
         'title' => 'The kidnapping of Persephone',
-        'image' => '/img/persephone.jpg',
+        'image' => 'img/persephone.jpg',
         'alt_text' => "Painting: The rape of Proserpine by Simone Pignoni, 1650.",
         'story' => [
             "Perspehone was the beautiful daughter of Demeter, the goddess of harvest, grain, fertility
@@ -38,7 +38,7 @@ $stories = [
 
     [
         'title' => 'Zeus is a megalomaniac and a sex addict',
-        'image' => '/img/swan.jpg',
+        'image' => 'img/swan.jpg',
         'alt_text' => 'Painting: Leda and The Swan by Peter Paul Rubens, 1601.',
         'story' => [
             "After overthrowing the cruel titans and instating himself and his siblings as the new gods, Zeus was
@@ -71,7 +71,7 @@ $stories = [
 
     [
         'title' => 'The face that launched a thousand ships',
-        'image' => '/img/helen.jpg',
+        'image' => 'img/helen.jpg',
         'alt_text' => 'Painting: The rape of Helen by Johann Georg Platzer, 1740-1760.',
         'story' => [
 
@@ -103,7 +103,7 @@ $stories = [
     ],
     [
         'title' => "The curiosity of Pandora",
-        'image' => '/img/pandora.jpg',
+        'image' => 'img/pandora.jpg',
         'alt_text' => 'Painting: Pandora by Walter Crane, 1885.',
         'story' => [
             "Zeus may have taken credit for creating mankind, but he only managed with the help of the titan Prometheus. Prometheus

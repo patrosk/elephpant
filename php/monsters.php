@@ -18,7 +18,7 @@ $monster_definition = [
 $monsters = [
     [
         'name' => 'Medusa',
-        'image' => '/img/medusa.jpg',
+        'image' => 'img/medusa.jpg',
         'location' => 'Sarpedon',
         'creature' => 'Once a beautiful woman, now cursed with snakes as hair',
         'powers' => 'Petrifying gaze',
@@ -45,7 +45,7 @@ $monsters = [
 
     [
         'name' => 'Minotaur',
-        'image' => '/img/minotaur.jpg',
+        'image' => 'img/minotaur.jpg',
         'location' => 'Labyrinth on Crete',
         'creature' => 'Offspring of woman and beast: a man with the head and tail of a bull',
         'powers' => 'Ferocious man-eater',
@@ -78,7 +78,7 @@ $monsters = [
 
     [
         'name' => 'Hydra',
-        'image' => '/img/hydra.jpeg',
+        'image' => 'img/hydra.jpeg',
         'location' => 'Lake Lerna',
         'creature' => 'Water-dwelling, many-headed serpent',
         'powers' => 'Poisonous breath and blood; for every head chopped off, the Hydra regrows two more',
@@ -109,7 +109,7 @@ $monsters = [
 
     [
         'name' => 'Polyphemus',
-        'image' => '/img/Polyphemus.gif',
+        'image' => 'img/Polyphemus.gif',
         'location' => 'Island of the Cyclopes',
         'creature' => 'Cyclope',
         'powers' => 'One-eyed, man-eating giant',
@@ -135,7 +135,7 @@ $monsters = [
 
     [
         'name' => 'Scylla',
-        'image' => '/img/scylla.jpg',
+        'image' => 'img/scylla.jpg',
         'location' => 'Rock of Scilla, Calabria',
         'creature' => 'Once a beautiful naiade, now a sea monster',
         'powers' => 'Four-eyed monster with six snakelike heads and twelve tentacles.',
@@ -162,7 +162,7 @@ $monsters = [
 
     [
         'name' => 'Charybdis',
-        'image' => '/img/charybdis.png',
+        'image' => 'img/charybdis.png',
         'location' => 'Strait of Messina',
         'creature' => 'Sea monster cursed by Zeus with an unquenchable thirst for sea water',
         'powers' => 'Drinks sea water thrice a day, creating dangerous whirlpools',

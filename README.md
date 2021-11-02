@@ -2,7 +2,9 @@
 
 # Monsters
 
-Monsters is about six monsters from Greek Mythology. It presents their stories and questions what a monster really is. Link to the live page:
+Monsters is about six monsters from Greek Mythology. It presents their stories and questions what a monster really is. The "Tell me a story" tab generates a random story from Greek Mythology.
+
+Link to the live page: https://patrosk.one/elephpant/index.php
 
 Disclaimer: I do not own any of the images used in the project, except for the key pattern.
 
@@ -39,5 +41,5 @@ Code review written by [Amanda Karlsson](https://github.com/amandaprintz).
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Agnes Skönvall
+2. Sofia Rönnkvist

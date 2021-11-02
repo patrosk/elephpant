@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: center;
   gap: 10px;
-  background-image: url('/img/laura.jpg');
+  background-image: url('../img/laura.jpg');
 }
 /* Background Image by <a href="https://unsplash.com/@lkb222?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura B</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
@@ -97,7 +97,7 @@ a {
 }
 
 .pattern {
-  background-image: url('/img/keypatternlong.png');
+  background-image: url('../img/keypatternlong.png');
   height: 95px;
   margin-top: 60px;
 }

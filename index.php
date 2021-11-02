@@ -7,7 +7,7 @@
 
 <div class="container">
     <div class="box">
-        <img class="akropolis_small" src="/img/akropolis.jpeg" alt="Akropolis in golden light">
+        <img class="akropolis_small" src="img/akropolis.jpeg" alt="Akropolis in golden light">
         <article class="definition"> <?= $monster_definition[0] ?>
         </article>
         <article class="definition"> <?= $monster_definition[1] ?>
@@ -15,7 +15,7 @@
         <article class="question">
             What really is a monster?
         </article>
-        <img class="akropolis_large" src="/img/akropolis.jpeg" alt="Akropolis in golden light">
+        <img class="akropolis_large" src="img/akropolis.jpeg" alt="Akropolis in golden light">
     </div>
 </div>
 
