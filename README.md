@@ -31,11 +31,17 @@ Install this project by following these steps:
 
 Code review written by [Amanda Karlsson](https://github.com/amandaprintz).
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-3. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. The images of the website are quite big and hard for the eye to grasp. It takes a while for the eye to see the actual image when it’s taking upp full width of the desktop. So I would recommend resizing them to when using a desktop view and maybe even on tablet view. A full width image might be more suitable only for the media query for smartphones when the eye can see the whole image right away.
+
+2. It would be great if alt-tags was added to the pictures of the different monsters in the monsters.php file to describe the images of the different types of monsters. They are very specific in their appearance which make a lot of their characters. That would increase the accessibility on your page because then everyone would be able to know how each monster looks without even physically seeing them.
+
+3. The alt-texts for the images in the “Tell me a story”-page are used to tell the name of each painting. It would be more appropriate to use a <p> for that and instead make an alt-text that actually describes the image rather than giving the name and year of the painting itself. Make sure to keep your alt-text invisible too so it’s not a part of what you see on the page.
+
+4. The story "The curiosity of Pandora" 's subheading needs to be separate to the paragraf text. Now the heading is on the same level as the the actual text of the paragraph in desktop view.
+
+5. In your gallery’s array there is a hover-effect on the images which makes them appear clickable. To make it easier for the visitor of the page maybe the images could be turned into button where you can see each page of each monster right away instead of having a whole new page just for that.
+
+6. Overall I think it looks really nice and interesting. Your coding skills are really great! 🙂
 
 # Testers
 
