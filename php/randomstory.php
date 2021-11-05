@@ -5,8 +5,9 @@ declare(strict_types=1);
 $stories = [
     [
         'title' => 'The kidnapping of Persephone',
-        'image' => 'img/persephone.jpg',
-        'alt_text' => "Painting: The rape of Proserpine by Simone Pignoni, 1650.",
+        'image' => 'images/persephone.jpg',
+        'painting' => "Painting: The rape of Proserpine by Simone Pignoni, 1650.",
+        'alt_text' => 'Woman grabbed by a man and dragged away against her will.',
         'story' => [
             "Perspehone was the beautiful daughter of Demeter, the goddess of harvest, grain, fertility
     and all living plants. While she was picking flowers on the fields of Sicily one day,
@@ -38,8 +39,9 @@ $stories = [
 
     [
         'title' => 'Zeus is a megalomaniac and a sex addict',
-        'image' => 'img/swan.jpg',
-        'alt_text' => 'Painting: Leda and The Swan by Peter Paul Rubens, 1601.',
+        'image' => 'images/swan.jpg',
+        'painting' => 'Painting: Leda and The Swan by Peter Paul Rubens, 1601.',
+        'alt_text' => 'Naked woman embracing a white swan lovingly.',
         'story' => [
             "After overthrowing the cruel titans and instating himself and his siblings as the new gods, Zeus was
         the most powerful god on Mount Olympus. He could pretty much do as he pleased, although the other gods sometimes
@@ -71,8 +73,9 @@ $stories = [
 
     [
         'title' => 'The face that launched a thousand ships',
-        'image' => 'img/helen.jpg',
-        'alt_text' => 'Painting: The rape of Helen by Johann Georg Platzer, 1740-1760.',
+        'image' => 'images/helen.jpg',
+        'painting' => 'Painting: The rape of Helen by Johann Georg Platzer, 1740-1760.',
+        'alt_text' => 'Woman taken away on a ship full of soldiers, fighting on the docks in the foreground.',
         'story' => [
 
             "Helen of Troy was said to be the most beautiful woman in the world. She was the daughter of the Spartan queen Leda
@@ -103,8 +106,9 @@ $stories = [
     ],
     [
         'title' => "The curiosity of Pandora",
-        'image' => 'img/pandora.jpg',
-        'alt_text' => 'Painting: Pandora by Walter Crane, 1885.',
+        'image' => 'images/pandora.jpg',
+        'painting' => 'Painting: Pandora by Walter Crane, 1885.',
+        'alt_text' => 'Woman lying over a large, decorated chest, burying her face in anguish.',
         'story' => [
             "Zeus may have taken credit for creating mankind, but he only managed with the help of the titan Prometheus. Prometheus
             was wise and kind and saw the potential of the humans - he wanted to teach them all he could. Zeus was afraid that if they knew too much, humans could pose

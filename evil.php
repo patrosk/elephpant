@@ -42,5 +42,5 @@
         ?>
     </div>
 </div>
-<div class="tip"><?= tip() ?></div>
+<div class="tip"><?= get_variable($tip[0]) ?></div>
 <?php require __DIR__ . '/php/footer.php'; ?>

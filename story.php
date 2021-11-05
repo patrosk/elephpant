@@ -12,21 +12,22 @@
         $i = rand(0, 3);
         $title = $stories[$i]['title'];
         $image = $stories[$i]['image'];
+        $painting = $stories[$i]['painting'];
         $alt = $stories[$i]['alt_text'];
         $story = $stories[$i]['story'];
 
         ?>
 
         <img class="akropolis_small" src="<?= $image ?>" alt="<?= $alt ?>">
-        <div class="alt_small"><?= $alt ?></div>
+        <div class="alt_small"><?= $painting ?></div>
         <h3><?= $title ?></h3>
         <?php foreach ($story as $paragraph) : ?>
             <article class="definition"> <?= $paragraph ?></article>
         <?php endforeach ?>
         <img class="akropolis_large" src="<?= $image ?>" alt="<?= $alt ?>">
-        <div class="alt_large"><?= $alt ?></div>
+        <div class="alt_large"><?= $painting ?></div>
     </div>
 </div>
-<div class="tip">Refresh this page for another story!</div>
+<div class="tip"><?= get_variable($tip[1]) ?></div>
 
 <?php require __DIR__ . '/php/footer.php'; ?>

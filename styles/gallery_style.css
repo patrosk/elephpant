@@ -6,7 +6,7 @@
 
 .gallery {
   margin: 10px;
-  background-image: url('../img/laura.jpg');
+  background-image: url('../images/laura.jpg');
   border-radius: 20px;
   width: 200px;
   display: flex;

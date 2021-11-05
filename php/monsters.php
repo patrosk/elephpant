@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+$heading = 'Monsters in Greek Mythology';
+$tip = ['Want to read more? Check out the different tabs!', 'Refresh this page for another story!'];
+
 $monster_definition = [
     "A monster is usually defined as a large, frightening and evil imaginary creature. It often implies
     a repulsive character, an object of dread, awful deeds or abomination. Monsters are often depicted as inherently evil beings that
@@ -18,7 +21,7 @@ $monster_definition = [
 $monsters = [
     [
         'name' => 'Medusa',
-        'image' => 'img/medusa.jpg',
+        'image' => 'images/medusa.jpg',
         'location' => 'Sarpedon',
         'creature' => 'Once a beautiful woman, now cursed with snakes as hair',
         'powers' => 'Petrifying gaze',
@@ -45,7 +48,7 @@ $monsters = [
 
     [
         'name' => 'Minotaur',
-        'image' => 'img/minotaur.jpg',
+        'image' => 'images/minotaur.jpg',
         'location' => 'Labyrinth on Crete',
         'creature' => 'Offspring of woman and beast: a man with the head and tail of a bull',
         'powers' => 'Ferocious man-eater',
@@ -78,7 +81,7 @@ $monsters = [
 
     [
         'name' => 'Hydra',
-        'image' => 'img/hydra.jpeg',
+        'image' => 'images/hydra.jpeg',
         'location' => 'Lake Lerna',
         'creature' => 'Water-dwelling, many-headed serpent',
         'powers' => 'Poisonous breath and blood; for every head chopped off, the Hydra regrows two more',
@@ -109,7 +112,7 @@ $monsters = [
 
     [
         'name' => 'Polyphemus',
-        'image' => 'img/Polyphemus.gif',
+        'image' => 'images/Polyphemus.gif',
         'location' => 'Island of the Cyclopes',
         'creature' => 'Cyclope',
         'powers' => 'One-eyed, man-eating giant',
@@ -135,7 +138,7 @@ $monsters = [
 
     [
         'name' => 'Scylla',
-        'image' => 'img/scylla.jpg',
+        'image' => 'images/scylla.jpg',
         'location' => 'Rock of Scilla, Calabria',
         'creature' => 'Once a beautiful naiade, now a sea monster',
         'powers' => 'Four-eyed monster with six snakelike heads and twelve tentacles.',
@@ -162,7 +165,7 @@ $monsters = [
 
     [
         'name' => 'Charybdis',
-        'image' => 'img/charybdis.png',
+        'image' => 'images/charybdis.png',
         'location' => 'Strait of Messina',
         'creature' => 'Sea monster cursed by Zeus with an unquenchable thirst for sea water',
         'powers' => 'Drinks sea water thrice a day, creating dangerous whirlpools',

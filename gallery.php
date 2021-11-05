@@ -4,7 +4,7 @@
 
 
 
-<h2><?= get_h2() ?></h2>
+<h2><?= get_variable($heading) ?></h2>
 
 <div class="container">
     <div class="box">
@@ -22,5 +22,5 @@
         <?php endforeach ?>
     </div>
 </div>
-<div class="tip"><?= tip() ?></div>
+<div class="tip"><?= get_variable($tip[0]) ?></div>
 <?php require __DIR__ . '/php/footer.php'; ?>
