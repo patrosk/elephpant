@@ -17,8 +17,11 @@
 
 <div class="container">
     <div class="box">
-        <?php if (isset($_GET['sorting'])) {
-            foreach ($monsters as $monster) {
+
+        <?php
+        if (isset($_GET['sorting'])) :
+
+            foreach (array_filter($monsters, "get_name") as $monster) {
 
                 $name = $monster['name'];
                 $location = $monster['location'];
@@ -27,31 +30,30 @@
                 $weakness = $monster['weakness'];
                 $slain_by = $monster['slain_by'];
                 $image = $monster['image'];
+                $alt = $monster['alt-text'];
+            } ?>
 
-                if ($_GET['sorting'] === $name) { ?>
-                    <div class="information" id="about">
-                        <div class="information_about">
-                            <div class="name"> <?= $name ?></div>
-                            <img class="monster_image" src="<?= $image ?>" alt="<?= $name ?>">
-                        </div>
-                        <ul class>
-                            <li>Creature:<p><?= $creature ?>
-                                <p>
-                            </li>
-                            <li>Location: <p><?= $location ?></p>
-                            </li>
-                            <li>Powers: <p><?= $powers ?></p>
-                            </li>
-                            <li>Weakness: <p><?= $weakness ?></p>
-                            </li>
-                            <li>Slain By: <p><?= $slain_by ?></p>
-                            </li>
-                        </ul>
-                    </div>
-        <?php }
-            }
-        } ?>
+            <div class="information" id="about">
+                <div class="information_about">
+                    <div class="name"> <?= $name ?></div>
+                    <img class="monster_image" src="<?= $image ?>" alt="<?= $alt ?>">
+                </div>
+                <ul class>
+                    <li>Creature:<p><?= $creature ?>
+                        <p>
+                    </li>
+                    <li>Location: <p><?= $location ?></p>
+                    </li>
+                    <li>Powers: <p><?= $powers ?></p>
+                    </li>
+                    <li>Weakness: <p><?= $weakness ?></p>
+                    </li>
+                    <li>Slain By: <p><?= $slain_by ?></p>
+                    </li>
+                </ul>
+            </div>
+        <?php endif ?>
     </div>
 </div>
-<div class="tip"><?= get_variable($tip[0]) ?></div>
+<div class="tip"><?= $tip[0] ?></div>
 <?php require __DIR__ . '/php/footer.php'; ?>

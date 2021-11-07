@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-function get_variable($variable): string
+
+function get_name($variable)
 {
-    return $variable;
-}
+    return $variable['name'] === $_GET['sorting'];
+};

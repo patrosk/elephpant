@@ -3,7 +3,7 @@
 <?php require __DIR__ . '/php/functions.php' ?>
 
 
-<h2><?= get_variable($heading) ?></h2>
+<h2><?= $heading ?></h2>
 
 <div class="container">
     <div class="box">
@@ -19,5 +19,5 @@
     </div>
 </div>
 
-<div class="tip"><?= get_variable($tip[0]) ?></div>
+<div class="tip"><?= $tip[0] ?></div>
 <?php require __DIR__ . '/php/footer.php'; ?>

@@ -4,7 +4,7 @@
 
 
 
-<h2><?= get_variable($heading) ?></h2>
+<h2><?= $heading ?></h2>
 
 <div class="container">
     <div class="box">
@@ -12,15 +12,16 @@
 
             <?php
             $name = $monster['name'];
-            $image = $monster['image']; ?>
+            $image = $monster['image'];
+            $alt = $monster['alt-text']; ?>
 
             <div class="gallery">
                 <div class="name"> <?= $name ?></div>
-                <img class="monster_image" src="<?= $image ?>" alt="<?= $name ?>">
+                <img class="monster_image" src="<?= $image ?>" alt="<?= $alt ?>">
             </div>
 
         <?php endforeach ?>
     </div>
 </div>
-<div class="tip"><?= get_variable($tip[0]) ?></div>
+<div class="tip"><?= $tip[0] ?></div>
 <?php require __DIR__ . '/php/footer.php'; ?>

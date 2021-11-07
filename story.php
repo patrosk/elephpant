@@ -28,6 +28,6 @@
         <div class="alt_large"><?= $painting ?></div>
     </div>
 </div>
-<div class="tip"><?= get_variable($tip[1]) ?></div>
+<div class="tip"><?= $tip[1] ?></div>
 
 <?php require __DIR__ . '/php/footer.php'; ?>

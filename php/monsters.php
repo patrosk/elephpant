@@ -22,6 +22,7 @@ $monsters = [
     [
         'name' => 'Medusa',
         'image' => 'images/medusa.jpg',
+        'alt-text' => 'Creature with the face and torso of a woman, the body of a snake and snakes instead of hair',
         'location' => 'Sarpedon',
         'creature' => 'Once a beautiful woman, now cursed with snakes as hair',
         'powers' => 'Petrifying gaze',
@@ -49,6 +50,7 @@ $monsters = [
     [
         'name' => 'Minotaur',
         'image' => 'images/minotaur.jpg',
+        'alt-text' => 'Creature with the head of a bull with large and sharp horns and the body of a man.',
         'location' => 'Labyrinth on Crete',
         'creature' => 'Offspring of woman and beast: a man with the head and tail of a bull',
         'powers' => 'Ferocious man-eater',
@@ -82,6 +84,7 @@ $monsters = [
     [
         'name' => 'Hydra',
         'image' => 'images/hydra.jpeg',
+        'alt-text' => 'A creature with three snake-like heads, with mouths filled with sharp teeth.',
         'location' => 'Lake Lerna',
         'creature' => 'Water-dwelling, many-headed serpent',
         'powers' => 'Poisonous breath and blood; for every head chopped off, the Hydra regrows two more',
@@ -113,6 +116,7 @@ $monsters = [
     [
         'name' => 'Polyphemus',
         'image' => 'images/Polyphemus.gif',
+        'alt-text' => 'A giant man with empty eye sockets but a large, single eye in the forehead.',
         'location' => 'Island of the Cyclopes',
         'creature' => 'Cyclope',
         'powers' => 'One-eyed, man-eating giant',
@@ -139,6 +143,7 @@ $monsters = [
     [
         'name' => 'Scylla',
         'image' => 'images/scylla.jpg',
+        'alt-text' => 'Creature emerging from the water with many snake-like heads, two dog heads and a screaming face attached to its body.',
         'location' => 'Rock of Scilla, Calabria',
         'creature' => 'Once a beautiful naiade, now a sea monster',
         'powers' => 'Four-eyed monster with six snakelike heads and twelve tentacles.',
@@ -166,6 +171,7 @@ $monsters = [
     [
         'name' => 'Charybdis',
         'image' => 'images/charybdis.png',
+        'alt-text' => 'Creature with a huge, opened mouth, surrounded by a set of large fangs, surrounded by busy water.',
         'location' => 'Strait of Messina',
         'creature' => 'Sea monster cursed by Zeus with an unquenchable thirst for sea water',
         'powers' => 'Drinks sea water thrice a day, creating dangerous whirlpools',
