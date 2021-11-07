@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Barlow';
+  src: url('.Barlow-Medium.woff2') format('woff2'),
+    url('.Barlow-Medium.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-size: 16px;
   color: darkblue;
@@ -36,7 +45,7 @@ h2 {
 }
 
 img {
-  width: 100%;
+  width: 80%;
 }
 
 .akropolis_small {
