@@ -18,27 +18,20 @@
 <div class="container">
     <div class="box">
         <?php if (isset($_GET['sorting'])) :
-            foreach (array_filter($monsters, "get_name") as $monster) {
-
-                $name = $monster['name'];
-                $image = $monster['image'];
-                $alt = $monster['alt-text'];
-                $story = $monster['story'];
-            } ?>
-
+            $monster = get_monster($monsters) ?>
             <div class="information" id="story">
                 <div class="stats">
-                    <div class="name"> <?= $name ?></div>
-                    <img class="monster_image" src="<?= $image ?>" alt="<?= $alt ?>">
+                    <div class="name"> <?= $monster['name'] ?></div>
+                    <img class="monster_image" src="<?= $monster['image'] ?>" alt="<?= $monster['alt_text'] ?>">
                 </div>
-                <?php foreach ($story as $paragraph) : ?>
+                <?php foreach ($monster['story'] as $paragraph) : ?>
                     <article class="story">
                         <?= $paragraph ?>
                     </article>
                 <?php endforeach ?>
             </div>
-        <?php endif; ?>
     </div>
+<?php endif ?>
 </div>
 <div class="tip"><?= $tip[0] ?></div>
 <?php require __DIR__ . '/php/footer.php'; ?>

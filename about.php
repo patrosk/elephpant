@@ -18,37 +18,25 @@
 <div class="container">
     <div class="box">
 
-        <?php
-        if (isset($_GET['sorting'])) :
-
-            foreach (array_filter($monsters, "get_name") as $monster) {
-
-                $name = $monster['name'];
-                $location = $monster['location'];
-                $creature = $monster['creature'];
-                $powers = $monster['powers'];
-                $weakness = $monster['weakness'];
-                $slain_by = $monster['slain_by'];
-                $image = $monster['image'];
-                $alt = $monster['alt-text'];
-            } ?>
+        <?php if (isset($_GET['sorting'])) :
+            $monster = get_monster($monsters) ?>
 
             <div class="information" id="about">
                 <div class="information_about">
-                    <div class="name"> <?= $name ?></div>
-                    <img class="monster_image" src="<?= $image ?>" alt="<?= $alt ?>">
+                    <div class="name"> <?= $monster['name'] ?></div>
+                    <img class="monster_image" src="<?= $monster['image'] ?>" alt="<?= $monster['alt_text'] ?>">
                 </div>
                 <ul class>
-                    <li>Creature:<p><?= $creature ?>
+                    <li>Creature:<p><?= $monster['creature'] ?>
                         <p>
                     </li>
-                    <li>Location: <p><?= $location ?></p>
+                    <li>Location: <p><?= $monster['location'] ?></p>
                     </li>
-                    <li>Powers: <p><?= $powers ?></p>
+                    <li>Powers: <p><?= $monster['powers'] ?></p>
                     </li>
-                    <li>Weakness: <p><?= $weakness ?></p>
+                    <li>Weakness: <p><?= $monster['weakness'] ?></p>
                     </li>
-                    <li>Slain By: <p><?= $slain_by ?></p>
+                    <li>Slain By: <p><?= $monster['slain_by'] ?></p>
                     </li>
                 </ul>
             </div>

@@ -7,25 +7,15 @@
 
 <div class="container">
     <div class="box">
-        <?php
-
-        $i = rand(0, 3);
-        $title = $stories[$i]['title'];
-        $image = $stories[$i]['image'];
-        $painting = $stories[$i]['painting'];
-        $alt = $stories[$i]['alt_text'];
-        $story = $stories[$i]['story'];
-
-        ?>
-
-        <img class="akropolis_small" src="<?= $image ?>" alt="<?= $alt ?>">
-        <div class="alt_small"><?= $painting ?></div>
-        <h3><?= $title ?></h3>
-        <?php foreach ($story as $paragraph) : ?>
+        <?php $story = get_random_story($stories); ?>
+        <img class="akropolis_small" src="<?= $story['image'] ?>" alt="<?= $story['alt_text'] ?>">
+        <div class="alt_small"><?= $story['painting'] ?></div>
+        <h3><?= $story['title'] ?></h3>
+        <?php foreach ($story['story'] as $paragraph) : ?>
             <article class="definition"> <?= $paragraph ?></article>
         <?php endforeach ?>
-        <img class="akropolis_large" src="<?= $image ?>" alt="<?= $alt ?>">
-        <div class="alt_large"><?= $painting ?></div>
+        <img class="akropolis_large" src="<?= $story['image'] ?>" alt="<?= $story['alt_text'] ?>">
+        <div class="alt_large"><?= $story['painting'] ?></div>
     </div>
 </div>
 <div class="tip"><?= $tip[1] ?></div>
