@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="styles/about_style.css">
     <link rel="stylesheet" href="styles/evil_style.css">
     <link rel="stylesheet" href="styles/header_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="medusa.ico" type="image/x-icon">
 </head>
 

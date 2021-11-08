@@ -2,19 +2,10 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'Barlow';
-  src: url('.Barlow-Medium.woff2') format('woff2'),
-    url('.Barlow-Medium.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
   font-size: 16px;
   color: darkblue;
-  font-family: 'Barlow';
+  font-family: 'Barlow', sans-serif;
   background-color: #d1daf8;
   margin: 0;
 }

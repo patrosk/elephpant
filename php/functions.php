@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-function get_name($variable)
+function get_name(array $monster)
 {
-    return $variable['name'] === $_GET['sorting'];
+    return $monster['name'] === $_GET['sorting'];
 };
